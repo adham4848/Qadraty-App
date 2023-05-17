@@ -13,6 +13,7 @@ Widget TextF({
 }) {
   return TextFormField(
     onSaved: onsave,
+    
       keyboardType: typ,
       validator: validator,
       onChanged: onChange,
