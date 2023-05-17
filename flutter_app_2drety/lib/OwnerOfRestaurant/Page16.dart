@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 
-import '../componant/com.dart';
 
 class AfterEditMeal extends StatefulWidget {
   const AfterEditMeal({super.key});
@@ -72,14 +71,14 @@ class _AfterEditMealState extends State<AfterEditMeal> {
             height: sizeh / 7,
             child: Row(
               children: [
-                const Image(
+                 Image(
                     //height: 20,
                     //width: 20,
                     image: AssetImage('lib/assets/images/images (23).jpeg')),
                 Container(
                   width: sizew / 20,
                 ),
-                const Text(
+                 Text(
                   "5 ج.م",
                   style: TextStyle(
                       color: Colors.black,
@@ -89,7 +88,7 @@ class _AfterEditMealState extends State<AfterEditMeal> {
                 Container(
                   width: sizew / 8,
                 ),
-                const Column(
+                 Column(
                   children: [
                     Text(
                       "طلب وسط",
@@ -125,7 +124,7 @@ class _AfterEditMealState extends State<AfterEditMeal> {
                 Container(
                   width: sizew / 20,
                 ),
-                const Text(
+                 Text(
                   "5 ج.م",
                   style: TextStyle(
                       color: Colors.black,
@@ -135,7 +134,7 @@ class _AfterEditMealState extends State<AfterEditMeal> {
                 Container(
                   width: sizew / 8,
                 ),
-                const Column(
+                 Column(
                   children: [
                     Text(
                       "طلب وسط",
